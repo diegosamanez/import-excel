@@ -15,10 +15,16 @@
             "email": "diegosamanez@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": "^8.0",
         "phpoffice/phpspreadsheet": "1.21.0",
         "laravel/framework": "8.81.0"
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
