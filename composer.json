@@ -1,0 +1,24 @@
+{
+    "name": "agregalel/import-excel",
+    "description": "Import an Excel file to map data within cells and even images",
+    "keywords": ["excel", "laravel"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Agregalel\\ImportExcel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Samanez",
+            "email": "diegosamanez@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "phpoffice/phpspreadsheet": "1.21.0",
+        "laravel/framework": "8.81.0"
+    }
+}
