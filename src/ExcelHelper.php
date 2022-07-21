@@ -42,7 +42,7 @@ class ExcelHelper
             case 'png' :
                 $tmpFile = imagecreatefrompng($imageZip);
                 $source = tmpfile();
-                $result = imagejpeg($tmpFile, $source);
+                $result = imagepng($tmpFile, $source);
                 if(!$result) throw new ExcelImageException();
                 break;
         }
